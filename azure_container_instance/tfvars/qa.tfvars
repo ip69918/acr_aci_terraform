@@ -1,0 +1,12 @@
+resource_group_location     =  "eastus"
+resource_group_name         =  "rg"
+container_group_name        = "acigroup07"
+container_name              = "qacontaineraci07"
+port                        =  8000
+container_registry_name     = "acrqaregistry07"
+registry_username           = "acrqaregistry07"
+registry_password           = "iytUZketTO92lToeVFOWg76T6DvmjLJGq1X/EYkIoK+ACRDkErqW"
+subscription_id             = "fa7160ab-1fbd-443c-9e28-ded8f2e36403"
+image                       = "acrqaregistry07.azurecr.io/leo-2files:k1"
+principal_id                = "ce5fa965-3642-4799-81e7-1a39e735f6fc"
+login_server                = "acrqaregistry07.azurecr.io"
